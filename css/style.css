@@ -47,7 +47,7 @@ nav{
 }
 .container {
     display: flex;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 .container-dates {
     font-family: cursive;
@@ -120,10 +120,10 @@ ol, ul {
 .container-games {
     font-family: Arial;
     width: 100vw;
-    margin: 50px 0px 40px 300px;
+    margin: 50px 0px 40px 100px;
 }
 .title-games {
-    margin-left: 130px;
+    text-align: center;
     font-size: 33px;
 }
 .title-4 {
@@ -142,7 +142,7 @@ ol, ul {
     width: 190px;
 }
 .table-width {
-    width: 150px;
+    width: 170px;
     text-align: start;
     height: 30px;
 }
@@ -162,7 +162,7 @@ td {
 .article-2 {
     font-size: 17px;
     margin: 15px 0px 40px 0px;
-    width: 580px;
+    width: 100%;
 }
 .article-3 {
     font-size: 17px;
@@ -171,12 +171,10 @@ td {
 .space1 {
     margin-left: 160px ;
 }
-/*-----------------FORM----------------------*/
 .container-form {
     width: 100vw;
     margin: 40px;
     font-family: sans-serif;
-    /* font-size: 18PX; */
 }
 .title-form {
     text-align: center;
@@ -190,15 +188,18 @@ td {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    width: 45vw;
+    width: 50vw;
     margin-bottom: 35px;
     margin-top: 20px;
 }
 .space-form1 {
-    margin-right: 4px;
+    margin-right: 15px;
 }
 .space-form2{
     margin-right: 15px;
+}
+.item-flex {
+    display: flex;
 }
 .item3 {
     display: grid;
@@ -210,7 +211,7 @@ td {
 }
 .grid-2 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1.5fr);
     gap: 1rem;
 }
 .item4 {
@@ -218,8 +219,10 @@ td {
     grid-column: 1/4;
 }
 .input-width {
-    width: 100%;
-    height: 30px;
+    flex-grow: 1;
     border: none;
     border-bottom: 1px solid rgb(0, 0, 0);
+}
+.label-width {
+    width: max-content;
 }
