@@ -47,7 +47,6 @@ nav{
 }
 .container {
     display: flex;
-    /* margin-left: 15px; */
 }
 .container-dates {
     font-family: cursive;
@@ -74,7 +73,7 @@ nav{
 }
 .container-rules {
     font-family: sans-serif;
-    margin: 40px 0px 40px 150px; 
+    margin: 40px auto;
     width: 65%;
     font-size: 19px;
 }
@@ -119,8 +118,8 @@ ol, ul {
 }
 .container-games {
     font-family: Arial;
-    width: 100vw;
-    margin: 50px 0px 40px 100px;
+    width: 70vw;
+    margin: 50px auto;
 }
 .title-games {
     text-align: center;
@@ -130,27 +129,19 @@ ol, ul {
     font-style: italic;
     font-weight: lighter;
     margin-top: 15px;
-    margin-left: 40px;
     font-size: 18px;
 }
 .line {
     text-decoration: underline;
     margin-bottom: 30px;
 }
-.table-center {
+th, td {
     text-align: center;
-    width: 190px;
+    border: 1px solid black;
+    width: 190px; 
 }
-.table-width {
-    width: 170px;
-    text-align: start;
-    height: 30px;
-}
-td {
-    height: 25px;
-}
-.container-games-2 {
-    margin-left: 40px;
+.th-height {
+    padding: 10px 0px;
 }
 .bold-1 {
     font-weight: bold;
@@ -222,7 +213,17 @@ td {
     flex-grow: 1;
     border: none;
     border-bottom: 1px solid rgb(0, 0, 0);
+    outline: 0;
+    font-size: 15px;
 }
-.label-width {
-    width: max-content;
+.input-width:active {
+    border-radius: none;
+}
+button {
+    height: 30px;
+}
+button:hover {
+    color: rgb(230, 238, 245);
+    background-color: rgb(0, 0, 0);
+    height: 30px;
 }
