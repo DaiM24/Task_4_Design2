@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     letter-spacing: -0.5px;
+    font-family: cursive;
 }
 .nav-bar {
     background-image: url(../assets/design1_image2.jpg);
@@ -12,12 +13,10 @@
     background-position-y: 90%;
 }
 .title {
-    font-family: cursive;
     font-size: 50px;
     font-style: italic
 }
 h2 {
-    font-family: cursive;
     text-align: center;
     color: black;
     border: solid 2px black;
@@ -31,7 +30,6 @@ nav > a{
     margin-left: 5px;
     border: solid 2px black;
     box-shadow: 3px 3px #7c7a7a;
-    font-family: cursive;
 }
 a:focus {
     background: rgb(143, 197, 62);
@@ -49,7 +47,6 @@ nav{
     display: flex;
 }
 .container-dates {
-    font-family: cursive;
     margin-top: 30px;
     margin-left: 90px;
     width:70vw;
@@ -72,7 +69,6 @@ nav{
     margin-bottom: 15px;
 }
 .container-rules {
-    font-family: sans-serif;
     margin: 40px auto;
     width: 65%;
     font-size: 19px;
@@ -117,7 +113,6 @@ ol, ul {
     display: inline;
 }
 .container-games {
-    font-family: Arial;
     width: 70vw;
     margin: 50px auto;
 }
@@ -165,7 +160,6 @@ th, td {
 .container-form {
     width: 100vw;
     margin: 40px;
-    font-family: sans-serif;
 }
 .title-form {
     text-align: center;
@@ -208,6 +202,9 @@ th, td {
 .item4 {
     display: grid;
     grid-column: 1/4;
+}
+.label-width {
+    width: 145px;
 }
 .input-width {
     flex-grow: 1;
